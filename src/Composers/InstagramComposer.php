@@ -43,7 +43,7 @@ abstract class InstagramComposer extends Composer
      */
     public function instagram()
     {
-        $this->instagram = $this->cache::remember("instagram.{$this->acount}.connection", 86400, function () {
+        $this->instagram = $this->cache::remember("instagram.{$this->account}.connection", 86400, function () {
             return $this->app->make('instagram.authenticated');
         });
     }
