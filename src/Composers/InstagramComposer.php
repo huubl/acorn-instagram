@@ -8,6 +8,7 @@ use Roots\Acorn\Application;
 use Roots\Acorn\View\Composer;
 use InstagramScraper\Instagram;
 use InstagramScraper\Model\Account;
+use InstagramScraper;
 
 /**
  * Instagram Composer
